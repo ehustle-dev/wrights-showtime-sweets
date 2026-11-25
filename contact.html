@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Wrights Showtime Sweets</title>
+    <meta
+      name="description"
+      content="Call Wrights Showtime Sweets on 0448 143 329 to book Australia’s largest travelling pick ‘n’ mix for your show or festival."
+    />
+    <link rel="icon" href="./images/logo.jpeg" type="image/jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="./" aria-label="Wrights Showtime Sweets home">
+          <img class="brand-logo" src="./images/logo.jpeg" alt="Wright’s Showtime Pick ‘n’ Mix" width="80" height="80" />
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="./services.html">Services</a>
+          <a href="./contact.html" aria-current="page">Contact Us</a>
+        </nav>
+        <a class="header-phone" href="tel:0448143329">0448 143 329</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow" style="color: var(--yellow)">Contact</p>
+          <h1>Call us. Let’s talk shows.</h1>
+          <p>
+            Fastest way to book is a phone call — or leave a message. We’re available 24/7 across QLD, NSW, ACT and
+            VIC.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <aside class="contact-card reveal">
+            <h2>Direct contact</h2>
+            <div class="contact-rows">
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:0448143329">0448 143 329</a>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:wrights.showtime.sweets@gmail.com">wrights.showtime.sweets@gmail.com</a>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>24/7 including emergencies</span>
+              </div>
+              <div>
+                <strong>Touring</strong>
+                <span>QLD · NSW · ACT · VIC</span>
+              </div>
+              <div>
+                <strong>ABN</strong>
+                <span>92 992 901 759</span>
+              </div>
+            </div>
+            <div class="btn-group" style="margin-top: 1.4rem">
+              <a class="btn btn-yellow" href="tel:0448143329">Call now</a>
+            </div>
+          </aside>
+
+          <div class="reveal">
+            <h2 class="section-title" style="margin-bottom: 1.1rem">Send a message</h2>
+            <form class="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="sr-only">
+                <label>Don’t fill this out: <input name="bot-field" /></label>
+              </p>
+
+              <div class="form-row two">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" required />
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                </div>
+              </div>
+
+              <div class="form-row two">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required />
+                </div>
+                <div class="field">
+                  <label for="event">Event type</label>
+                  <select id="event" name="event">
+                    <option value="Agricultural show">Agricultural show</option>
+                    <option value="Festival">Festival</option>
+                    <option value="Other event">Other event</option>
+                    <option value="General enquiry">General enquiry</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="location">Location / show</label>
+                <input id="location" name="location" type="text" placeholder="Show name or suburb" />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Dates, site notes, what you need…" required></textarea>
+              </div>
+
+              <p class="form-note">Prefer to talk? Call <a href="tel:0448143329">0448 143 329</a>.</p>
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-logo" src="./images/logo.jpeg" alt="Wright’s Showtime Pick ‘n’ Mix" width="80" height="80" />
+          <p>Australia’s largest travelling pick ‘n’ mix &amp; lolly party attraction.</p>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <div class="footer-links">
+            <a href="./">Home</a>
+            <a href="./services.html">Services</a>
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-contact">
+            <a href="tel:0448143329">0448 143 329</a>
+            <a href="mailto:wrights.showtime.sweets@gmail.com">wrights.showtime.sweets@gmail.com</a>
+            <span>ABN 92 992 901 759 · 24/7</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-year></span> Wrights Showtime Sweets</span>
+        <span>Fill the bag to the brim ★</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
